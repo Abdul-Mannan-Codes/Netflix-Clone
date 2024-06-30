@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netlfix India - Watch TV Shows Online, Watch Movies Online</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="Images/netflix-icon.png" type="image/png">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <section id="hero-section" class="width-100">
+        <div class="header d-flex pt-4 justify-content-between">
+             <img src="Images/Logonetflix.png" class="netflix-logo">
+             <div class="header-btns d-flex">
+                <button type="button" class="btn btn-transparent me-3"> <i class="fa-solid fa-language"></i> English <i class="fa-solid fa-caret-down"></i></button>
+                <button class="btn btn-danger sign-in-btn p-2">Sign In</button>
+             </div>
+        </div>
+        <div class="container d-flex flex-column p-5 txt-primary">
+            <div class="hero-div">
+                <h1 class="mb-4 bold">Unlimited movies, TV shows and more</h1>
+                <h4 class="mb-3">Watch anywhere. Cancel anytime.</h4>
+                <h6 class="mb-3">Ready to watch? Enter your email to create or restart your membership.</h6>
+                <form class="get-started-div d-flex gap-2">
+                    <input type="email" id="email" name="email" placeholder="Email address" class="input-email py-4 px-3 border rounded" required>
+                    <button class="btn btn-danger" for="email" type="submit"> Get Started <i class="fa-solid fa-chevron-right"></i> </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="s1" class="border-top bg-black width-100">
+        <div class="container text-center px-5 pt-5">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-6 col-md-12 col-12 text-lg-start text-md-center">
+                    <h1 class="mb-3">Enjoy on your TV</h1>
+                    <h4>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h4>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12">
+                    <div class="position-relative">
+                        <img src="images/tv.png" width="100%">
+                        <div class="video position-absolute">
+                            <video data-uia="nmhp-card-animation-asset-video" autoplay="" playsinline="" muted="" loop="" width="77%"><source src="Images/video-tv-in-0819.m4v" type="video/mp4"></video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="s2" class="border-top bg-black width-100">
+        <div class="container text-center px-3 pt-5">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-6 col-md-12 col-12">
+                    <div class="position-relative">
+                        <img src="images/stranger-things-eleven.jpg" width="100%">
+                        <div class="border border-dark rounded stranger-things-download position-absolute d-flex gap-2 p-2">
+                            <img src="Images/stranger-things-boxshot.png" >
+                            <div class="download-text p-2 pt-4 text-start">
+                                <h6 class="roboto-text">Stranger Things</h6>
+                                <p class="text-primary roboto-text fs-6">Downloading...</p>
+                            </div>
+                            <div class="gif ms-3 pt-3">
+                                <img src="Images/download-icon.gif" width="80%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12 text-start">
+                    <h1 class="mb-3">Download your shows to watch offline</h1>
+                    <h4>Save your favourites easily and always have something to watch.</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+body{
+    padding:0px;
+    margin:0px;
+    color:white;
+    font-family:"Roboto", sans-serif;
+    text-align: center;
+}
+/* .txt-primary{
+    color:white;
+    font-family:"Poppins", sans-serif;
+    text-align: center;
+} */
+.btn-transparent{
+    background-color: transparent;
+    color:white;
+    border: 1px solid #6d6d6d;
+}
+.btn-transparent:hover{
+    color:white;
+}
+.btn-transparent:active{
+    color:white;
+}
+.btn-danger{
+    background-color: red !important;
+    color:white !important;
+}
+.btn-danger:hover{
+    background-color: rgb(211, 7, 7) !important;
+    color:white !important;
+}
+#hero-section{
+    background-image:linear-gradient(0deg, rgba(0,0,0,0.3337710084033614) 0%, rgba(0,0,0,1) 100%), url("Images/hero-bg.jpg");
+    background-size:cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    height: 100vh;
+    width:100%;
+    margin:0px;
+}
+.netflix-logo{
+    width: 9.5rem;
+    height: 2.9rem;
+    color: rgb(229, 9, 20);
+    fill: currentColor;
+    display: block;
+}
+.header{
+    margin:0px 150px;
+}
+.get-started-div{
+    width:fit-content;
+    /* border: 1px solid green; */
+    margin:auto;
+    padding:0px 50px;
+    input{
+        width:70vh;
+        background: linear-gradient(0deg, rgba(0,0,0,0.3337710084033614) 0%, rgba(0,0,0,0.6530987394957983) 20%);
+        opacity: 80%;
+        color:white;
+        font-size:15px;
+        font-family: "Poppins", sans-serif;
+    }
+}
+.container{
+    height: 90vh;
+    justify-content: center;
+    h1{
+        font-weight:900;
+        letter-spacing:0.2vh;
+        font-size:7vh;
+    }
+    button{
+        font-size:23px;
+        font-weight: 500;
+        width:30vh;
+    }
+}
+.container button:hover{
+    background-color: rgb(211, 7, 7);
+}
+#s1{
+    height:90vh;
+}
+.video{
+    position: absolute;
+    top:12.5vh;
+    left:2vh;
+}
+.stranger-things-download{
+    height:25%;
+    width:60%;
+    left:20%;
+    bottom:10%;
+    background-color: #000;
+}
+.roboto-text{
+    font-family: "Roboto", sans-serif;
+}
+.fs-6{
+    font-size:90% !important;
+}
+.download-text{
+    width:100%;
+}
+@media only screen and (max-width:820px)
+{
+    .width-100{
+        width:820px;
+        background-size:cover;
+    }
+    #hero-section{
+        width:820px;
+    }
+}
