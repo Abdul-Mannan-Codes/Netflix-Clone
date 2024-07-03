@@ -17,12 +17,16 @@ body{
     background-color: transparent;
     color:white;
     border: 1px solid #6d6d6d;
+    width:125px;
 }
 .btn-transparent:hover{
     color:white;
 }
 .btn-transparent:active{
     color:white;
+}
+#hindi-lang{
+    bottom:-40px;
 }
 .btn-danger{
     background-color: red !important;
@@ -50,6 +54,7 @@ body{
 }
 .header{
     margin:0px 150px;
+    position:relative;
 }
 .get-started-div{
     width:fit-content;
@@ -64,6 +69,10 @@ body{
         font-size:15px;
         font-family: "Poppins", sans-serif;
     }
+}
+#email-req{
+    left:70px;
+    font-weight:700;
 }
 .container{
     height: 90vh;
@@ -130,13 +139,13 @@ body{
         width:70vw;
     }
 }
-.Question{
+.question{
     cursor: pointer;
 }
-.Question, .Answer{
+.question, .answer{
     background-color: #484444;
 }
-.Question:hover{
+.question:hover{
     background-color: #706e6e;
 }
 #footer{
@@ -175,5 +184,60 @@ body{
     }
     #hero-section{
         width:820px;
+    }
+    .s2-caption{
+        width:100%;
+        border:1px solid white;
+    }
+    #s1{
+        img{
+            width:50%;
+        }
+        video{
+            width:35%;
+        }
+        .video{
+            top:58px;
+            right:5px;
+        }
+    }
+    #s2{
+        height:1000px;
+    }
+    .s2-txt{
+        margin-top:80px;
+    }
+    #s3{
+        img{
+            width:60%;
+        }
+        video{
+            width:39%;
+        }
+        .video2{
+            top:44px;
+            right:5px;
+        }
+    }
+    #s4{
+        height:1000px;
+        .s2-caption{
+            margin-top:50px;
+        }
+    }
+    #faq-section{
+        height:900px;
+        .question{
+            width:500px;
+        }
+    }
+    #footer{
+        width:820px;
+        li{
+            font-size:20px;
+        }
+    }
+    .links-row{
+        width:700px;
     }
 }
